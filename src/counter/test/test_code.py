@@ -58,6 +58,7 @@ class TestCase(unittest.TestCase):
         )
 
     def test_pep(self):
+        """test documentation"""
         self.assertEqual(True,bool(main.talker.__doc__))
         self.assertEqual(True, bool(main.callback.__doc__))
         self.assertEqual(True, bool(main.listener.__doc__))
